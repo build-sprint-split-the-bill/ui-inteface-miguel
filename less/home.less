@@ -1,0 +1,142 @@
+header {
+    height: 10vh;
+    // background-color: whitesmoke;
+    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Roboto', sans-serif;
+
+    div {
+        height: 100%;
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h1 {
+            letter-spacing: 0.05rem;
+        }
+
+        nav {
+            width: 25%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            a {
+                &:hover {
+                    opacity: 0.75;
+                }
+            }
+
+            button {
+                padding: 0.75rem 1.75rem;
+                border: none;
+                border-radius: 0.75rem;
+                background-color: whitesmoke;
+                font-family: 'Roboto', sans-serif;
+                font-size: 1rem;
+                color: royalblue;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+    }
+}
+
+main {
+    height: 87.5vh;
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    div {
+        width: 40%;
+
+        h2 {
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+
+        p {
+            margin-bottom: 2rem;
+            font-size: 1.25rem;
+        }
+
+        button {
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 0.75rem;
+            background-color: whitesmoke;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.25rem;
+            color: royalblue;
+            cursor: pointer;
+
+            &:hover {
+                opacity: 0.75;
+            }
+        }
+    }
+
+    img {
+        width: 30rem;
+    }
+}
+
+footer {
+    height: 20vh;
+    background: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    color: #09091a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .footer {
+        height: 50%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .logo {
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            div {
+                display: flex;
+                align-items: center;
+                
+                img {
+                    height: 1.5rem;
+                    border-radius: 0.25rem;
+                    margin-right: 0.25rem;
+                }
+            }
+            
+            a {
+                text-decoration: none;
+                color: #09091a;
+
+                &:hover {
+                    opacity: 0.75;
+                }
+            }
+        }
+    }
+
+    .copyright {
+        height: 50%;
+        display: flex;
+        align-items: center;
+    }
+}

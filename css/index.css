@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to right, royalblue, cornflowerblue);
+}
+header {
+  height: 10vh;
+  font-family: 'Roboto', sans-serif;
+}
+header div {
+  height: 100%;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header div h1 {
+  letter-spacing: 0.05rem;
+}
+header div nav {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header div nav a:hover {
+  opacity: 0.75;
+}
+header div nav button {
+  padding: 0.75rem 1.75rem;
+  border: none;
+  border-radius: 0.75rem;
+  background-color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: royalblue;
+}
+header div a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+main {
+  height: 87.5vh;
+  width: 50%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main div {
+  width: 40%;
+}
+main div h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+main div p {
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+}
+main div button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.75rem;
+  background-color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  color: royalblue;
+  cursor: pointer;
+}
+main div button:hover {
+  opacity: 0.75;
+}
+main img {
+  width: 30rem;
+}
+footer {
+  height: 20vh;
+  background: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  color: #09091a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .footer {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer .logo {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer .logo div {
+  display: flex;
+  align-items: center;
+}
+footer .footer .logo div img {
+  height: 1.5rem;
+  border-radius: 0.25rem;
+  margin-right: 0.25rem;
+}
+footer .footer .logo a {
+  text-decoration: none;
+  color: #09091a;
+}
+footer .footer .logo a:hover {
+  opacity: 0.75;
+}
+footer .copyright {
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
