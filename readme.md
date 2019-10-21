@@ -1,1 +1,1 @@
-Deployed here: splitapp.netlify.com.
+Deployed here: https://splitapp.netlify.com.
