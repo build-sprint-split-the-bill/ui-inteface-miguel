@@ -38,13 +38,14 @@ header div nav button {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   color: royalblue;
+  cursor: pointer;
 }
 header div a {
   text-decoration: none;
   color: whitesmoke;
 }
 main {
-  height: 87.5vh;
+  height: 70vh;
   width: 50%;
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
@@ -54,7 +55,7 @@ main {
   align-items: center;
 }
 main div {
-  width: 40%;
+  width: 35%;
 }
 main div h2 {
   margin-bottom: 1rem;
@@ -78,7 +79,50 @@ main div button:hover {
   opacity: 0.75;
 }
 main img {
-  width: 30rem;
+  width: 35rem;
+}
+.second-section {
+  height: 70vh;
+  background: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  color: #09091a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-section div {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.second-section div h2 {
+  width: 35%;
+  font-size: 2rem;
+}
+.second-section div img {
+  width: 35rem;
+}
+.third-section {
+  height: 70vh;
+  font-family: 'Roboto', sans-serif;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third-section div {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.third-section div h2 {
+  width: 35%;
+  font-size: 2rem;
+}
+.third-section div img {
+  width: 35rem;
 }
 footer {
   height: 20vh;
