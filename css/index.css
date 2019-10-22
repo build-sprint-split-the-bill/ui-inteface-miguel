@@ -18,6 +18,11 @@ header div {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 1000px) {
+  header div {
+    width: 90%;
+  }
+}
 header div h1 {
   letter-spacing: 0.05rem;
 }
@@ -53,6 +58,11 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media (max-width: 1000px) {
+  main {
+    width: 90%;
+  }
 }
 main div {
   width: 35%;
@@ -96,6 +106,11 @@ main img {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 1000px) {
+  .second-section div {
+    width: 90%;
+  }
+}
 .second-section div h2 {
   width: 35%;
   font-size: 2rem;
@@ -116,6 +131,11 @@ main img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media (max-width: 1000px) {
+  .third-section div {
+    width: 90%;
+  }
 }
 .third-section div h2 {
   width: 35%;
@@ -166,4 +186,47 @@ footer .copyright {
   height: 50%;
   display: flex;
   align-items: center;
+}
+.about-first-section {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+.about-first-section .about-first-section-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-first-section .about-first-section-container h2 {
+  margin-bottom: 4rem;
+  color: whitesmoke;
+  font-size: 2rem;
+}
+.about-first-section .about-first-section-container .team-divs {
+  display: flex;
+}
+.about-first-section .about-first-section-container .team-divs div {
+  height: 12.5rem;
+  width: 12.5rem;
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  margin: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.about-first-section .about-first-section-container .team-divs div img {
+  height: 8rem;
+}
+.about-first-section .about-first-section-container .team-divs div a {
+  text-decoration: none;
+  color: #09091a;
+}
+.about-first-section .about-first-section-container .team-divs div a:hover {
+  opacity: 0.75;
 }
