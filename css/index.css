@@ -12,16 +12,11 @@ header {
 }
 header div {
   height: 100%;
-  width: 50%;
+  max-width: 1024px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-@media (max-width: 1000px) {
-  header div {
-    width: 90%;
-  }
 }
 header div h1 {
   letter-spacing: 0.05rem;
@@ -49,9 +44,19 @@ header div a {
   text-decoration: none;
   color: whitesmoke;
 }
+@media (max-width: 500px) {
+  header div nav {
+    width: 45%;
+  }
+}
+@media (max-width: 1024px) {
+  header div {
+    width: 90%;
+  }
+}
 main {
   height: 70vh;
-  width: 50%;
+  max-width: 1024px;
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
   color: whitesmoke;
@@ -59,13 +64,8 @@ main {
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width: 1000px) {
-  main {
-    width: 90%;
-  }
-}
 main div {
-  width: 35%;
+  width: 40%;
 }
 main div h2 {
   margin-bottom: 1rem;
@@ -89,7 +89,24 @@ main div button:hover {
   opacity: 0.75;
 }
 main img {
-  width: 35rem;
+  width: 60%;
+}
+@media (max-width: 500px) {
+  main {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  main div {
+    width: 100%;
+  }
+  main img {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  main {
+    width: 90%;
+  }
 }
 .second-section {
   height: 70vh;
@@ -101,22 +118,36 @@ main img {
   align-items: center;
 }
 .second-section div {
-  width: 50%;
+  max-width: 1024px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width: 1000px) {
-  .second-section div {
-    width: 90%;
-  }
-}
 .second-section div h2 {
-  width: 35%;
+  width: 40%;
   font-size: 2rem;
 }
 .second-section div img {
-  width: 35rem;
+  width: 60%;
+}
+@media (max-width: 500px) {
+  .second-section div {
+    height: 100%;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  }
+  .second-section div h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .second-section div img {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .second-section div {
+    width: 90%;
+  }
 }
 .third-section {
   height: 70vh;
@@ -127,22 +158,36 @@ main img {
   align-items: center;
 }
 .third-section div {
-  width: 50%;
+  max-width: 1024px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width: 1000px) {
-  .third-section div {
-    width: 90%;
-  }
-}
 .third-section div h2 {
-  width: 35%;
+  width: 40%;
   font-size: 2rem;
 }
 .third-section div img {
-  width: 35rem;
+  width: 60%;
+}
+@media (max-width: 500px) {
+  .third-section div {
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .third-section div h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .third-section div img {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .third-section div {
+    width: 90%;
+  }
 }
 .fourth-section {
   height: 70vh;
@@ -150,9 +195,9 @@ main img {
   font-family: 'Roboto', sans-serif;
   color: #09091a;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .fourth-section div {
   display: flex;
@@ -163,7 +208,7 @@ main img {
 }
 .fourth-section button {
   padding: 1rem 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   border: none;
   border-radius: 0.75rem;
   background-color: royalblue;
@@ -175,8 +220,8 @@ main img {
 .fourth-section button:hover {
   opacity: 0.75;
 }
-.fourth-section img:first-child {
-  margin-right: 1rem;
+.fourth-section img {
+  margin: 0.5rem;
 }
 footer {
   height: 20vh;
@@ -221,6 +266,11 @@ footer .copyright {
   display: flex;
   align-items: center;
 }
+@media (max-width: 500px) {
+  footer .footer {
+    width: 100%;
+  }
+}
 .about-first-section {
   height: 90vh;
   display: flex;
@@ -263,4 +313,21 @@ footer .copyright {
 }
 .about-first-section .about-first-section-container .team-divs div a:hover {
   opacity: 0.75;
+}
+@media (max-width: 500px) {
+  .about-first-section {
+    height: 190vh;
+  }
+  .about-first-section .team-divs {
+    flex-direction: column;
+  }
+}
+.signup {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup div {
+  background: white;
 }

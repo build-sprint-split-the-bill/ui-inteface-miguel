@@ -1,8 +1,6 @@
 .about-first-section {
     height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .center();
     font-family: 'Roboto', sans-serif;
     
     .about-first-section-container {
@@ -13,7 +11,7 @@
 
         h2 {
             margin-bottom: 4rem;
-            color: whitesmoke;
+            color: @white;
             font-size: 2rem;
         }
 
@@ -23,7 +21,7 @@
             div {
                 height: 14rem;
                 width: 12rem;
-                background: whitesmoke;
+                background: @white;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -38,13 +36,21 @@
 
                 a {
                     text-decoration: none;
-                    color: #09091a;
+                    color: @navy;
 
                     &:hover {
                         opacity: 0.75;
                     }
                 }
             }
+        }
+    }
+
+    @media @mobile {
+        height: 190vh;
+        
+        .team-divs {
+            flex-direction: column;
         }
     }
 }
