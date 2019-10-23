@@ -56,7 +56,7 @@ header div a {
 }
 @media (max-width: 500px) {
   header div nav {
-    width: 60%;
+    width: 50%;
   }
 }
 main {
