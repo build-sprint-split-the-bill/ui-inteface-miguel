@@ -157,11 +157,51 @@ main {
     }
 }
 
-footer {
-    height: 20vh;
+.fourth-section {
+    height: 70vh;
     background: whitesmoke;
     font-family: 'Roboto', sans-serif;
     color: #09091a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        display: flex;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    button {
+        padding: 1rem 2rem;
+        margin-bottom: 1rem;
+        border: none;
+        border-radius: 0.75rem;
+        background-color: royalblue;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.25rem;
+        color: whitesmoke;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.75;
+        }
+    }
+
+    img:first-child {
+        margin-right: 1rem;
+    }
+}
+
+footer {
+    height: 20vh;
+    background-image: linear-gradient(to right, #09091a, #222233);
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -192,7 +232,7 @@ footer {
             
             a {
                 text-decoration: none;
-                color: #09091a;
+                color: whitesmoke;
 
                 &:hover {
                     opacity: 0.75;

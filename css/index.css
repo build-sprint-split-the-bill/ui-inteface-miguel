@@ -144,11 +144,45 @@ main img {
 .third-section div img {
   width: 35rem;
 }
-footer {
-  height: 20vh;
+.fourth-section {
+  height: 70vh;
   background: whitesmoke;
   font-family: 'Roboto', sans-serif;
   color: #09091a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fourth-section div {
+  display: flex;
+}
+.fourth-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.fourth-section button {
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.75rem;
+  background-color: royalblue;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  color: whitesmoke;
+  cursor: pointer;
+}
+.fourth-section button:hover {
+  opacity: 0.75;
+}
+.fourth-section img:first-child {
+  margin-right: 1rem;
+}
+footer {
+  height: 20vh;
+  background-image: linear-gradient(to right, #09091a, #222233);
+  font-family: 'Roboto', sans-serif;
+  color: whitesmoke;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -177,7 +211,7 @@ footer .footer .logo div img {
 }
 footer .footer .logo a {
   text-decoration: none;
-  color: #09091a;
+  color: whitesmoke;
 }
 footer .footer .logo a:hover {
   opacity: 0.75;
@@ -188,7 +222,7 @@ footer .copyright {
   align-items: center;
 }
 .about-first-section {
-  height: 70vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -209,8 +243,8 @@ footer .copyright {
   display: flex;
 }
 .about-first-section .about-first-section-container .team-divs div {
-  height: 12.5rem;
-  width: 12.5rem;
+  height: 14rem;
+  width: 12rem;
   background: whitesmoke;
   display: flex;
   flex-direction: column;
