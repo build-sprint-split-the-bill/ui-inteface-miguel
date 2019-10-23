@@ -56,7 +56,7 @@ header div a {
 }
 @media (max-width: 500px) {
   header div nav {
-    width: 50%;
+    width: 55%;
   }
 }
 main {
@@ -108,6 +108,9 @@ main img {
   }
   main div {
     width: 100%;
+  }
+  main div h2 {
+    font-size: 1.75rem;
   }
   main img {
     width: 100%;
