@@ -44,14 +44,19 @@ header div a {
   text-decoration: none;
   color: whitesmoke;
 }
-@media (max-width: 500px) {
-  header div nav {
-    width: 45%;
-  }
-}
 @media (max-width: 1024px) {
   header div {
     width: 90%;
+  }
+}
+@media (max-width: 800px) {
+  header div nav {
+    width: 40%;
+  }
+}
+@media (max-width: 500px) {
+  header div nav {
+    width: 60%;
   }
 }
 main {
@@ -91,6 +96,11 @@ main div button:hover {
 main img {
   width: 60%;
 }
+@media (max-width: 1024px) {
+  main {
+    width: 90%;
+  }
+}
 @media (max-width: 500px) {
   main {
     flex-direction: column;
@@ -101,11 +111,6 @@ main img {
   }
   main img {
     width: 100%;
-  }
-}
-@media (max-width: 1024px) {
-  main {
-    width: 90%;
   }
 }
 .second-section {
@@ -130,6 +135,11 @@ main img {
 .second-section div img {
   width: 60%;
 }
+@media (max-width: 1024px) {
+  .second-section div {
+    width: 90%;
+  }
+}
 @media (max-width: 500px) {
   .second-section div {
     height: 100%;
@@ -142,11 +152,6 @@ main img {
   }
   .second-section div img {
     width: 100%;
-  }
-}
-@media (max-width: 1024px) {
-  .second-section div {
-    width: 90%;
   }
 }
 .third-section {
@@ -170,6 +175,11 @@ main img {
 .third-section div img {
   width: 60%;
 }
+@media (max-width: 1024px) {
+  .third-section div {
+    width: 90%;
+  }
+}
 @media (max-width: 500px) {
   .third-section div {
     height: 100%;
@@ -182,11 +192,6 @@ main img {
   }
   .third-section div img {
     width: 100%;
-  }
-}
-@media (max-width: 1024px) {
-  .third-section div {
-    width: 90%;
   }
 }
 .fourth-section {
