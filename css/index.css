@@ -59,6 +59,11 @@ header div a {
     width: 55%;
   }
 }
+@media (max-width: 350px) {
+  header div nav {
+    width: 65%;
+  }
+}
 main {
   height: 70vh;
   max-width: 1024px;
@@ -116,6 +121,11 @@ main img {
     width: 100%;
   }
 }
+@media (max-width: 350px) {
+  main {
+    height: 90vh;
+  }
+}
 .second-section {
   height: 70vh;
   background: whitesmoke;
@@ -155,6 +165,11 @@ main img {
   }
   .second-section div img {
     width: 100%;
+  }
+}
+@media (max-width: 350px) {
+  .second-section {
+    height: 90vh;
   }
 }
 .third-section {
@@ -197,6 +212,11 @@ main img {
     width: 100%;
   }
 }
+@media (max-width: 350px) {
+  .third-section {
+    height: 90vh;
+  }
+}
 .fourth-section {
   height: 70vh;
   background: whitesmoke;
@@ -230,6 +250,15 @@ main img {
 }
 .fourth-section img {
   margin: 0.5rem;
+}
+@media (max-width: 350px) {
+  .fourth-section {
+    height: 90vh;
+  }
+  .fourth-section div:last-child {
+    display: flex;
+    flex-direction: column;
+  }
 }
 footer {
   height: 20vh;
@@ -277,6 +306,11 @@ footer .copyright {
 @media (max-width: 500px) {
   footer .footer {
     width: 100%;
+  }
+}
+@media (max-width: 350px) {
+  footer .footer .logo {
+    width: 75%;
   }
 }
 .about-first-section {
