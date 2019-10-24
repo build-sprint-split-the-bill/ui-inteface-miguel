@@ -303,7 +303,7 @@ footer .copyright {
   display: flex;
   align-items: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   footer .footer {
     width: 100%;
   }
@@ -314,25 +314,27 @@ footer .copyright {
   }
 }
 .about-first-section {
-  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Roboto', sans-serif;
 }
 .about-first-section .about-first-section-container {
-  width: 50%;
+  max-width: 1024px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 10rem 0rem;
 }
 .about-first-section .about-first-section-container h2 {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   color: whitesmoke;
   font-size: 2rem;
 }
 .about-first-section .about-first-section-container .team-divs {
   display: flex;
+  flex-wrap: wrap;
 }
 .about-first-section .about-first-section-container .team-divs div {
   height: 14rem;
@@ -356,9 +358,9 @@ footer .copyright {
 .about-first-section .about-first-section-container .team-divs div a:hover {
   opacity: 0.75;
 }
-@media (max-width: 500px) {
-  .about-first-section {
-    height: 190vh;
+@media (max-width: 1024px) {
+  .about-first-section .about-first-section-container {
+    margin: 5rem 0;
   }
   .about-first-section .team-divs {
     flex-direction: column;

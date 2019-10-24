@@ -1,22 +1,24 @@
 .about-first-section {
-    height: 90vh;
     .center();
     font-family: 'Roboto', sans-serif;
     
     .about-first-section-container {
-        width: 50%;
+        max-width: 1024px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 10rem 0rem;
 
         h2 {
-            margin-bottom: 4rem;
+            margin-bottom: 2rem;
             color: @white;
             font-size: 2rem;
         }
 
         .team-divs {
             display: flex;
+            flex-wrap: wrap;
 
             div {
                 height: 14rem;
@@ -46,8 +48,10 @@
         }
     }
 
-    @media @mobile {
-        height: 190vh;
+    @media @tablet {
+        .about-first-section-container {
+            margin: 5rem 0;
+        }
         
         .team-divs {
             flex-direction: column;
